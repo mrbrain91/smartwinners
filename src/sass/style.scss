@@ -1,20 +1,29 @@
 @import 'libs/bootstrap-reboot.min';
 //---------------------------add goole fonts-------------------------------------------------
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import 'base/variables';
 @import 'base/mixins';
 * {
-    // font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     // transition: all 0.6s;
 }
 
-// .container {
-//     width: 1140px;
-//     margin: 0 auto;
-// }
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 @import 'blocks/title';
 @import 'blocks/button';
+@import 'blocks/header';
 @import 'blocks/menu';
+@import 'blocks/banner';
+@import 'blocks/biggest';
 @import 'blocks/media';

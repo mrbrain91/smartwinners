@@ -1,0 +1,103 @@
+.biggest {
+    margin-top: 75px;
+    width: 100%;
+    min-height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+    &__cards {
+        width: 100%;
+        min-height: 149px;
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            width: 380px;
+            height: 150px;
+            border: 1px solid #E0E0E0;
+            border-radius: 8px;
+        }
+        &-top {
+            height: 91px;
+            width: 100%;
+            display: flex;
+            &-circle {
+                height: 80px;
+                width: 141px;
+                border: 2px solid #E0E0E0;
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5.3px 23.39px 0 28.31px;
+                img {
+                    width: 78px;
+                    height: 59px;
+                }
+            }
+            &-descr {
+                width: 148px;
+                height: 63.6px;
+                margin-top: 15px;
+                padding-top: 9.5px;
+                img {
+                    width: 20px;
+                    height: 14px;
+                }
+                span {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 120%;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                }
+                &-mln {
+                    margin-top: 5px;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 22px;
+                    color: #13902A;
+                }
+            }
+        }
+        &-bottom {
+            height: 58px;
+            width: 100%;
+            background: $color-blue;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            padding: 13.43px 72.1px 8.35px 12.25px;
+            display: flex;
+            align-items: center;
+            img {
+                width: 18px;
+                height: 18px;
+                margin-left: 38.54px;
+            }
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: #FFFFFF;
+                margin-left: 4px;
+            }
+        }
+    }
+    &__btn {
+        cursor: pointer;
+        height: 36px;
+        width: 171px;
+        border-radius: 8px;
+        background: $color-yellow;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        text-align: center;
+    }
+}
