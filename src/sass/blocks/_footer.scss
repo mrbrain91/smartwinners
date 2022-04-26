@@ -1,0 +1,116 @@
+.footer {
+    width: 100%;
+    min-height: 558.36px;
+    margin-top: 75px;
+    background-image: url('../../img/footer/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 133.36px 123.27px 55.63px 108.73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__1 {
+        width: 214px;
+        height: 369.37px;
+        // background-color: red;
+        &-wrapper {
+        display: flex;
+
+            img {
+                width: 36px;
+                height: 36px;
+            }
+            &-whatsapp-descr {
+                margin-left: 15px;
+                height: 36px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 21px;
+                color: #5F5F5F;
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #000000;
+    
+                }
+            }
+        }
+        &-title {
+            margin-top: 36.37px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        &-links {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        a {
+            display: block;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+    }
+    &__2 {
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 15px;
+
+        }
+        width: 249px;
+        height: 203px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        color: #000000;
+
+    }
+    &__3 {
+        width: 152px;
+        min-height: 369.37px;
+        &-social {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+        &-title {
+            margin-top: 30px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #000000;
+            text-align: center;
+        }
+        &-pays {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            img {
+                width: 44px;
+                height: 26.4px;
+            }
+        }
+        img {
+            margin-top: 12px;
+        }
+    }
+
+}
